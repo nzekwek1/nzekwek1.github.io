@@ -1,0 +1,120 @@
+h1{
+	color: black;
+	text-align: center;
+	background-color: skyblue;
+}
+
+body{ background-color: ghostwhite;
+	display: inline-block;
+
+}
+
+.media-icon .media-icons {
+	display: inline-block;
+	align-items: center;
+	justify-content: center;
+	background-color: skyblue;
+	border-radius: 100%;
+	font-size: 1.5rem;
+}
+
+.media-icon .media-icons:last-child{
+	display: inline-block;
+}
+
+.media-icon .media-icons:hover {
+	background-color: blueviolet;
+}
+
+section{
+	display: inline-block;
+	background-size: cover;
+	align-items: center;
+	justify-content: center;
+
+}
+
+
+div{
+	display: inline-flex;
+}
+
+.images{
+	width:80%;
+	height: 330px;
+	background-color: #FFFFFF;
+	border-radius: 20px;
+	display: inline-block;
+
+}
+
+.background-container{
+	width:80%;
+	height: 330px;
+	background-color: #FFFFFF;
+	border-radius: 20px;
+	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+	display: inline-flex;
+	margin: 7% auto 20px auto;
+	position: relative;
+	text-align: center;
+}
+
+.nigeria-container{
+	width:80%;
+	height: 330px;
+	background-color: #FFFFFF;
+	border-radius: 20px;
+	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+	display: flex;
+	margin: 7% auto 20px auto;
+	position: relative;
+}
+
+.box-hobbies .box-best .box-goals {
+	width: 300px;
+	height: 320px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	justify-content: center;
+	align-items: center;
+	font-size: medium;
+	display: inline-flex;
+
+}
+
+.box-container{
+	display: inline-flex;
+	justify-content: center;
+	background-color: skyblue;
+
+}
+
+.box-image1 .box-image2 .box-image3{
+	width: 300px;
+	height: 320px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	justify-content: center;
+	align-items: center;
+	font-size: medium;
+	display: inline-grid;
+
+}
+
+.quote-text{
+	font-display: auto;
+}
+
+.social-icon a:hover{
+	background-color: ;
+}
+
+a[href^="mailto"]::before {
+    content: "📧 ";
+
+}
+
+
+a[href^="tel"]::before {
+    content: "📞 ";
